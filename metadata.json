@@ -1,0 +1,6 @@
+{
+  "name": "Field Care Patients",
+  "description": "Offline-first mobile field healthcare patient registration, search, and CSV export application for field workers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

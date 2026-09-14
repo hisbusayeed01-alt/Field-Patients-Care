@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbar for clean chip/tag scrolling */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Mobile viewport optimization */
+html, body {
+  min-height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid #047857;
+  outline-offset: 2px;
+}
